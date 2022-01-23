@@ -1,0 +1,20 @@
+body{
+    background-color: whitesmoke;
+    
+}
+h1{
+    color: midnightblue;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: bold;
+    
+}
+.encabezado{
+    
+    background-color: #f1c7cb;
+    
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+}
