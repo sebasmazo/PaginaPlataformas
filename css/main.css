@@ -82,3 +82,60 @@ header .titulo_header{
 .contenedor_texto_acerca_de h3{
     margin-bottom: 15px;
 }
+
+/*Blog*/
+.contenedor_blog{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boton_blog{                            /*El color de abajo*/
+    appearance: button;
+    background-color: midnightblue;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 30%;
+
+    min-height: 100px;
+    min-width: 300px;
+}
+
+.boton_blog:after{                      /*El color de encima*/
+    background-clip: padding-box;
+    background-color: rgb(43, 43, 182);
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.boton_blog:hover:not(:disabled) {      /*Color despues de hover*/
+    filter: brightness(1.5);
+  }
