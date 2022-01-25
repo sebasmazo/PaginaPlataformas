@@ -66,7 +66,7 @@ header .titulo_header{
     color: white;
 }
 
-/*Acerca de*/
+/*ACERCA DE*/
 .contenedor_acerca_de{
     display: flex;
     justify-content: space-evenly;
@@ -82,7 +82,7 @@ header .titulo_header{
     font-weight: 500;
 }
 
-/*Blog*/
+/*BLOG*/
 .contenedor_blog{
     display: inline-block;
     justify-content: space-evenly;
@@ -92,8 +92,7 @@ header .titulo_header{
     margin-bottom: 15px;
     font-weight: 500;
 }
-/*El color de abajo*/
-.boton_blog{                            
+.boton_blog{                        /*El color de abajo*/                 
     appearance: button;
     background-color: midnightblue;
     border: solid transparent;
@@ -124,8 +123,7 @@ header .titulo_header{
     min-width: 300px;
 
 }
-/*El color de encima*/
-.boton_blog:after{                      
+.boton_blog:after{                  /*El color de encima*/                  
     background-clip: padding-box;
     background-color: rgb(43, 43, 182);
     border: solid transparent;
@@ -139,7 +137,24 @@ header .titulo_header{
     top: 0;
     z-index: -1;
 }
-/*Color despues de hover*/
-.boton_blog:hover:not(:disabled) {      
+.boton_blog:hover:not(:disabled) {  /*Color despues de hover*/         
     filter: brightness(1.5);
   }
+
+/*SERVICIOS*/
+/*
+.contenedor_servicios{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarjeta{
+    width: 280px;
+    height: 360px;
+    padding: 20px 20px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+
+}*/
