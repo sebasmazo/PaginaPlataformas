@@ -26,9 +26,16 @@ body{
 header{
     width: 100%;
     height: 720px;
+    /* ESTE ES MAS ROJIZO
     background: #12c2e9;  
     background: -webkit-linear-gradient(to right, hsla(356, 90%, 64%, 0.350), hsla(280, 78%, 69%, 0.350), hsla(191, 86%, 49%, 0.350)), url(../imgs/img_inicio.jpg); 
     background: linear-gradient(to right, hsla(356, 90%, 64%, 0.350), hsla(280, 78%, 69%, 0.350), hsla(191, 86%, 49%, 0.350)), url(../imgs/img_inicio.jpg); 
+    */
+    /*ESTE ES MAS AZULADO*/
+    background: #000046;  
+    background: -webkit-linear-gradient(to right, hsla(193, 78%, 49%, 0.6), hsla(240, 100%, 14%, 0.6)), url(../imgs/img_inicio.jpg);  
+    background: linear-gradient(to right, hsla(193, 78%, 49%, 0.6), hsla(240, 100%, 14%, 0.6)), url(../imgs/img_inicio.jpg); 
+
     background-size: cover;
     background-attachment: fixed;
     position: relative;
