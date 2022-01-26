@@ -262,3 +262,21 @@ footer{
     font-weight: 400;
     padding-top: 5px;
 }
+
+/*QUIENES SOMOS*/
+.contenedor_quienes_somos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.persona{
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+}
+.persona img{
+    width: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 3px solid hsl(240, 62%, 44%);
+    border-radius: 50%;
+}
