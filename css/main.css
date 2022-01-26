@@ -22,7 +22,8 @@ body{
     margin-bottom: 60px;
 }
 
-/*Header*/
+
+/*HEADER*/
 header{
     width: 100%;
     height: 720px;
@@ -73,6 +74,7 @@ header .titulo_header{
     color: white;
 }
 
+
 /*ACERCA DE*/
 .contenedor_acerca_de{
     display: flex;
@@ -88,6 +90,7 @@ header .titulo_header{
     margin-bottom: 15px;
     font-weight: 500;
 }
+
 
 /*BLOG*/
 .contenedor_blog{
@@ -148,6 +151,7 @@ header .titulo_header{
     filter: brightness(1.5);
   }
 
+
 /*SERVICIOS*/
 .galeria_servicios{
     display: flex;
@@ -159,7 +163,6 @@ header .titulo_header{
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
-    /*cursor:;*/
     box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
 }
 .imagen_servicios > img{
@@ -224,4 +227,38 @@ footer{
     font-size: 24px;
     margin: 20px 0 0 0;
     color: lightgray;
+}
+
+
+/*CLIENTES*/
+.tarjetas_usuario{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tarjetas_usuario .tarjeta{
+    background: rgb(43, 43, 182);
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+}
+.tarjetas_usuario .tarjeta img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: block;
+}
+.tarjetas_usuario .tarjeta .texto_tarjeta{
+    width: 60%;
+    color: white;
+}
+
+.tarjetas_usuario .tarjeta .texto_tarjeta p{
+    font-weight: 400;
+    padding-top: 5px;
 }
