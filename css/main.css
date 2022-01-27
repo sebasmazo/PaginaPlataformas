@@ -18,3 +18,14 @@ p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
 }
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
