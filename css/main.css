@@ -8,6 +8,8 @@ body{
     font-family: 'Source Sans Pro';
 }
 
+
+
 .contenedor{
     padding: 60px 0;
     width: 90%;
@@ -234,6 +236,14 @@ footer{
 .tarjetas_usuario{
     display: flex;
     justify-content: space-evenly;
+}
+
+.nombre_usuario {
+    text-decoration: underline;
+    font-size: 17px;
+}
+.texto_clientes{
+    font-size: 14px;
 }
 .tarjetas_usuario .tarjeta{
     background: rgb(43, 43, 182);
