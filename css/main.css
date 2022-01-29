@@ -10,7 +10,7 @@ h1{
 }
 .encabezado{
     
-    background-color: #f1c7cb;
+    display: inline-flex;
     
 }
 
@@ -32,6 +32,16 @@ p{
 .postTipos{
     display: none;
 }
+.postCuriosidades{
+    display: none;
+}
 .menu{
     text-align: center;
+}
+.menu h1{
+    cursor: pointer;
+}
+.postGaleria{
+    display: none;
+    position: relative;
 }

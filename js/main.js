@@ -10,10 +10,30 @@ function obtenerDatos(params) {
     }
 } 
 function showTypes(){
+    document.getElementById("curiosidades").style.display = "none";
+    document.getElementById("galeria").style.display = "none";
     if (document.getElementById("postTipos").style.display == "none"){
         document.getElementById("postTipos").style.display = "inline";
     }else{
         document.getElementById("postTipos").style.display = "none";
     }
     
+}
+function showFacts() {
+    document.getElementById("postTipos").style.display = "none";
+    document.getElementById("galeria").style.display = "none";
+    if (document.getElementById("curiosidades").style.display == "none") {
+        document.getElementById("curiosidades").style.display = "inline";
+    } else {
+        document.getElementById("curiosidades").style.display = "none";
+    }
+}
+function showGallery() {
+    document.getElementById("curiosidades").style.display = "none";
+    document.getElementById("postTipos").style.display = "none";
+    if (document.getElementById("galeria").style.display == "none") {
+        document.getElementById("galeria").style.display = "block";
+    } else {
+        document.getElementById("galeria").style.display = "none";
+    }
 }
