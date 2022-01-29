@@ -8,5 +8,12 @@ function obtenerDatos(params) {
     }else{
         alert("Por favor ingrese los datos para suscribirse");
     }
-    
 } 
+function showTypes(){
+    if (document.getElementById("postTipos").style.display == "none"){
+        document.getElementById("postTipos").style.display = "inline";
+    }else{
+        document.getElementById("postTipos").style.display = "none";
+    }
+    
+}

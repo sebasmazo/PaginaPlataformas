@@ -29,7 +29,9 @@ p{
     flex: 33.33%;
     padding: 2px;
   }
-.formulario{
-    background-color:cyan;
-    padding: 40px;
+.postTipos{
+    display: none;
+}
+.menu{
+    text-align: center;
 }
