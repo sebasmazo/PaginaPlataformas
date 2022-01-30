@@ -86,6 +86,7 @@ header .titulo_header{
 }
 .imagen_acerca_de{
     width: 32%;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
 }
 .acerca_de .contenedor_texto_acerca_de{
     width: 48%;
