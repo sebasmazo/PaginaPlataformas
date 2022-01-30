@@ -26,7 +26,7 @@
         </nav>  
         <section class="titulo_header">
             <h1>El michi verso</h1>
-            <h2>Chan chan chan</h2>
+            <h2>Bienvenidos michilovers</h2>
         </section>
     </header>
     <main>
@@ -35,8 +35,10 @@
             <div class="contenedor_acerca_de">     
                 <img src="imgs/michi2.png" alt="" class="imagen_acerca_de">        
                 <div class="contenedor_texto_acerca_de">                   
-                    <h3>Somos facheros Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse perferendis modi laboriosam saepe. Quia omnis repudiandae quae repellendus recusandae fugiat provident quaerat qui! Ab ullam placeat, amet nulla a ducimus.</h3>                   
-                    <h3>Somos facheros Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse perferendis modi laboriosam saepe. Quia omnis repudiandae quae repellendus recusandae fugiat provident quaerat qui! Ab ullam placeat, amet nulla a ducimus.</h3>                    
+                    <h3 class ="que_es"> El michiverso es un lugar donde tanto los humanos como los gatos se pueden sentir en casa. Principalmente somos hogar de aproximadamente 15 michis, con los cuales puedes venir a divertirte en nuestro Cat Cafe. </h3>                   
+                    <h3 class ="que_es">Te invitamos a que vengas a acompañarnos, a si sea a disfrutar con nuestros amados peludos o para encontrar un sitio donde puedas trabajar y tomarte un delicioso café. También ofrecemos servicio para darle a tu mascota el 
+                        mejor hogar fuera de su hogar. Con el servicio de guarderia, tu peludo podrá compartir con otros michis si así lo deseas y sentirse como en casa. 
+                    </h3>                    
                 </div>
             </div>
         </section>
@@ -44,7 +46,7 @@
         <section class="contenedor blog">
             <h2 class="titulo">Accede a nuestro blog</h2>
             <div class="contenedor_blog">
-                <h3>En nuestro blog podrás encontrar publicaciones sobre temas de interes relacionados a nuestra especie favorita de mascota, los michis, si eres un "michi-lover" no dudes en darle un vistazo.</h3>
+                <h3 class ="que_es">En nuestro blog podrás encontrar publicaciones sobre temas de interes relacionados a nuestra especie favorita de mascota, los michis, si eres un "michi-lover" no dudes en darle un vistazo.</h3>
                 <button class="boton_blog">ACCEDER</button>
             </div>
         </section>
@@ -105,15 +107,19 @@
                 <div class="tarjeta">
                     <img src="imgs/Usuario2.png" alt="">
                     <div class="texto_tarjeta">
-                        <h4 class= "nombre_usuario">Nombre usuario</h4>
-                        <p class= "texto_clientes">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, enim? Fugiat illo molestias voluptates odio!</p>
+                        <h4 class= "nombre_usuario">Juan Sebastián</h4>
+                        <p class= "texto_clientes">Yo estudio a unos pocos minutos de michiverso, y me gusta pasar esas horas entre el estudio y el trabajo en el café. Los michis me ayudan a desestrezarme y a volverme más creativo. Además de que el servicio es genial!
+
+                        </p>
                     </div>
                 </div>
                 <div class="tarjeta">
                     <img src="imgs/Usuario3.png" alt="">
                     <div class="texto_tarjeta">
-                        <h4 class= "nombre_usuario">Nombre usuario</h4>
-                        <p class= "texto_clientes">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique nesciunt labore sit assumenda animi aliquid.</p>
+                        <h4 class= "nombre_usuario">Gloria</h4>
+                        <p class= "texto_clientes"> Me encanta michiverso! Son las únicas personas a las cuales les confio mis peluditos.
+                            Se que en ellos puedo confiar plenamente para darle lo mejor a mis gatos cuando yo no estoy ahí. 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -123,19 +129,18 @@
             <h2 class="titulo">¿Quiénes somos?</h2>
             <div class="contenedor_quienes_somos">
                 <div class="persona">
-                    <img src="imgs/default_icon.jpg" alt="">
+                    <img src="imgs/Mazo.png" alt="">
                     <h3>Sebastían Mazo</h3>
                     <p>Estudiante de Ingeniería de Sistemas e Informática en
                         la Universidad Pontificia Bolivariana.</p>
                 </div>
                 <div class="persona">
-                    <img src="imgs/Sofia.jpg" alt="">
+                    <img src="imgs/Sofia.png" alt="">
                     <h3>Sofia Arango</h3>
-                    <p>Estudiante de Ingeniería de Sistemas e Informática, e Ingeniería en Ciencia de Datos en
-                        la Universidad Pontificia Bolivariana</p>
+                    <p>Estudiante de Ingeniería de Sistemas e Informática e Ingeniería en Ciencia de Datos en la Universidad Pontificia Bolivariana</p>
                 </div>
                 <div class="persona">
-                    <img src="imgs/default_icon.jpg" alt="">
+                    <img src="imgs/Cornejo.jpeg" alt="">
                     <h3>Gabriel Cornejo</h3>
                     <p>Estudiante de Ingeniería de Sistemas e Informática en
                         la Universidad Pontificia Bolivariana.</p>
@@ -145,6 +150,27 @@
         <hr>
         <section class="contenedor contacto">
             <h2 class="titulo">Contáctanos</h2>
+            <div class="container">  
+                <form id="contact" action="" method="post">
+                  
+                  <h4 class="contactanos">Contáctanos con cualquier duda que tengas, trateremos de responderte lo más pronto posible.</h4>
+                  <fieldset>
+                    <input placeholder="Nombre completo" type="text" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Dirección de correo electrónico" type="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Número de celular (opcional)" type="tel" tabindex="3" required>
+                  </fieldset>
+                  <fieldset>
+                    <textarea placeholder="Escribe tu pregunta, sugerencia o felicitación aquí" tabindex="5" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="Enviar" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+                  </fieldset>
+                </form>
+              </div>
         </section>
     </main>
 </body>
