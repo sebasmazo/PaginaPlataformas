@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -268,6 +271,13 @@ header .titulo_header{
     padding: 10px 10px 10px 10px;
     color: white;
     
+}
+.info_hover h1{
+    font-size:medium;
+    color: white;
+}
+.info_hover p{
+    font-size: medium;
 }
 .imagen_servicios:hover .info_hover{
     transform: rotatey(0deg);
