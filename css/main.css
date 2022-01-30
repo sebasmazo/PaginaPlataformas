@@ -311,6 +311,7 @@ footer{
 }
 .contenido_footer p{
     color: rgb(173, 173, 173);
+    font-size: 15px;
 }
 .titulo_final{
     text-align: center;
@@ -377,6 +378,9 @@ footer{
     object-fit: cover;
     border: 3px solid hsl(240, 62%, 44%);
     border-radius: 50%;
+}
+.persona p{
+    font-size: 15px;
 }
 
 
