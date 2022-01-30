@@ -45,6 +45,82 @@ header{
     background-attachment: fixed;
     position: relative;
 }
+.encabezado{
+    width: 100%;
+    display: flex;
+    background: midnightblue;
+    justify-content: space-evenly;
+}
+.encabezado h1{
+    color: white;
+    align-items:center;
+}
+.titulo_encabezado{
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+}
+.formulario{
+    justify-content: space-evenly;
+    text-align: center;
+}
+.formulario h1{
+    font-size: 25px;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+}
+* {
+    box-sizing:border-box;
+    
+}
+.titulos_secciones{
+    text-align: center;
+    font-size: 45px;
+    text-decoration:underline;
+}
+
+/* Slideshow container IMPORTANTE MERGE*/
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 2px;
+  }
+.postTipos{
+    display: none;
+}
+.postCuriosidades{
+    display: none;
+    padding: 15px;
+}
+.menu{
+    text-align: right;
+}
+.menu h2{
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: bold;
+}
+.menu h2:hover{
+    text-decoration:underline;
+}
+.postGaleria{
+    display: none;
+    position: relative;
+}
+h1{
+    color: midnightblue;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: bold;
+    
+}
 nav{
     text-align: right;
     padding: 30px 50px 0 0;

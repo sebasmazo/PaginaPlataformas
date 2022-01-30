@@ -189,31 +189,56 @@
     
     
     <br>
-    
+    <div class="formulario">
+        <h1>Suscribete a nuestro blog para recibir actualizaciones semanales!</h1>
+        <form name="suscripcion">
+            <label for="fname">
+                <p>Nombre</p>
+            </label>
+            <input type="text" name="fname" id="fname" placeholder="Nombre">
+            <label for="email">
+                <p>Email</p>
+            </label>
+            <input type="email" name="email" id="email" placeholder="Correo">
+            <label for="michifav" name="michifav" id="michifav" placeholder="Michi favorito">
+                <p>Cuál es tu raza favorita?</p>
+            </label>
+            <select id="cats" name="cats">
+                <option value="ragdoll">Ragdoll</option>
+                <option value="Persa">Persa</option>
+                <option value="Exotico">Exotico</option>
+                <option value="Scottish Fold">Scottish Fold</option>
+            </select> <br> <br> <br>
+            <input type="button" name="submit" id="submit" value="Suscribirse" onclick="obtenerDatos()">
+        </form>
+    </div>
+    <br>
+    <br>
     <footer>
-        <div class="formulario">
-            <h1>Suscribete a nuestro blog para recibir actualizaciones semanales!</h1>
-            <form name="suscripcion">
-                <label for="fname">
-                    <p>Nombre</p>
-                </label>
-                <input type="text" name="fname" id="fname" placeholder="Nombre">
-                <label for="email">
-                    <p>Email</p>
-                </label>
-                <input type="email" name="email" id="email" placeholder="Correo">
-                <label for="michifav" name="michifav" id="michifav" placeholder="Michi favorito">
-                    <p>Cuál es tu raza favorita?</p>
-                </label>
-                <select id="cats" name="cats">
-                    <option value="ragdoll">Ragdoll</option>
-                    <option value="Persa">Persa</option>
-                    <option value="Exotico">Exotico</option>
-                    <option value="Scottish Fold">Scottish Fold</option>
-                </select> <br> <br> <br>
-                <input type="button" name="submit" id="submit" value="Suscribirse" onclick="obtenerDatos()">
-            </form>
+        <div class="contenedor_footer">
+            <div class="contenido_footer">
+                <h4>Instagram</h4>
+                <p>@TuMichiVerso</p>
+            </div>
+            <div class="contenido_footer">
+                <h4>Facebook</h4>
+                <p>MichiVerso Medellín</p>
+            </div>
+    
+            <div class="contenido_footer">
+                <h4>Telefono</h4>
+                <p>(+57)1233456</p>
+            </div>
+            <div class="contenido_footer">
+                <h4>Email</h4>
+                <p>michiverso@michimail.com</p>
+            </div>
+            <div class="contenido_footer">
+                <h4>Ubicación</h4>
+                <p>Medellín, Colombia</p>
+            </div>
         </div>
+        <h2 class="titulo_final">Plataformas de programación empresarial UPB 2022-01</h2>
     </footer>
 </body>
 </html>
