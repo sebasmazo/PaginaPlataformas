@@ -17,22 +17,23 @@
 <body>
     
     <div class="encabezado">
-        <strong><h1>Blog michero</h1></strong>
+        <strong><h1 class="titulo_encabezado">Blog michero</h1></strong>
         <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_z9ed2jna.json" background="transparent" speed="1"
             style="width: 300px; height: 300px;" loop autoplay></lottie-player>
         <div class="menu">
             <h1>MENU</h1>
             <span>
-                <h1 onclick="showTypes()" > Tipos de michis</h1>
-                <h1 onclick="showFacts()">Curiosidades</h1>
-                <h1 onclick="showGallery()">Galeria</h1>
+                <h2 onclick="showTypes()" > Tipos de michis</h2>
+                <h2 onclick="showFacts()">Curiosidades</h2>
+                <h2 onclick="showGallery()">Galeria</h2>
             </span>
         </div>
     </div>
     
-    <hr>
+    
     
     <div class="postTipos" id="postTipos">
+        <h1 class="titulos_secciones">TIPOS DE MICHIS</h1>
         <h1>Gato Persa</h1>
         <div class="galeria">
             <div class="row">
@@ -157,6 +158,8 @@
 
     </div>
     <div class="postCuriosidades" id="curiosidades">
+        <h1 class="titulos_secciones">MICHI-CURIOSIDADES</h1>
+        <br>
         <ul>
             <li><p>Tienen una flexibilidad y agilidad impresionante, pueden saltar desde más de 3 metros de altura.</p></li>
             <li><p>Los gatos pueden rotar sus orejas 180 grados.</p></li>
@@ -168,6 +171,7 @@
         <hr>
     </div>
     <div class="postGaleria" id="galeria">
+        <h1 class="titulos_secciones">GALERIA DE MICHIS</h1>
         <img src="imgs/640px-Lilac_Scottish_Fold.jpg" width=500 height="300">
         <img src="imgs/ScottishFold.jpg" width=500 height="300">
         <img src="imgs/gato-exotico.jpg" width=500 height="300">
@@ -185,9 +189,10 @@
     
     
     <br>
-    <h1>Suscribete a nuestro blog para recibir actualizaciones semanales!</h1>
+    
     <footer>
         <div class="formulario">
+            <h1>Suscribete a nuestro blog para recibir actualizaciones semanales!</h1>
             <form name="suscripcion">
                 <label for="fname">
                     <p>Nombre</p>
